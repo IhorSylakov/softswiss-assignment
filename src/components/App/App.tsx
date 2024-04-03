@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import './App.scss';
 
-const App: React.FC = () => {
+export default function App() {
   return (
     <div className="App">
       <Header />
@@ -13,5 +13,3 @@ const App: React.FC = () => {
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "title": "Move the borders of reality!",
+      "text": "Go on a space adventure - it's possible with us!",
+      "link": "/",
+      "background": "newsBg1"
+    },
+    {
+      "id": 2,
+      "title": "Space is not just stars and planets",
+      "text": "Go on a space adventure",
+      "link": "/",
+      "background": "newsBg2"
+    },
+    {
+      "id": 3,
+      "title": "For those who dream of stars",
+      "text": "Our offer: make your dream come true",
+      "link": "/",
+      "background": "newsBg3"
+    },
+    {
+      "id": 4,
+      "title": "Fulfill your fantastic dreams",
+      "text": "Space has never been so close",
+      "link": "/",
+      "background": "newsBg4"
+    }
+  ]
+}

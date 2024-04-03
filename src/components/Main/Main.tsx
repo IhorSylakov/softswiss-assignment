@@ -1,15 +1,13 @@
 import React from 'react';
 import Content from '../Content/Content';
-import Intro from '../Intro/Intro';
+import Banner from '../Banner/Banner';
 import './Main.scss';
 
-const Main: React.FC = () => {
+export default function Main() {
   return (
     <main className="Main">
-      <Intro />
+      <Banner />
       <Content />
     </main>
   );
 }
-
-export default Main;
