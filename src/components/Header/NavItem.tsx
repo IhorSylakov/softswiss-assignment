@@ -8,12 +8,12 @@ export default function NavItem({
   children
 }: HeaderLink) {
   return (
-    <li className="NavItem__nav-item">
+    <li className="NavItem">
       <a href={link} className="NavItem__nav-link">
         {children ? (
-          <div>
+          <>
             {children}
-          </div>
+          </>
         ) : (
           text
         )}

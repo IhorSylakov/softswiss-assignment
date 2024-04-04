@@ -1,0 +1,12 @@
+.Footer {
+  text-align: center;
+  background: var(--inverted-color);
+
+  &__text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 900;
+    color: var(--secondary-color);
+  }
+}

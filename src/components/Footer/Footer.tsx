@@ -9,10 +9,12 @@ export default function Footer() {
         width="93"
         height="81"
         src={footerLogo}
-        alt=""
+        loading="lazy"
+        className="Footer__logo"
+        alt="Exciting space adventure!"
       />
 
-      <p>Exciting space adventure!</p>
+      <p className="Footer__text">Exciting space adventure!</p>
     </footer>
   );
 }

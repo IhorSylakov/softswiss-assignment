@@ -1,0 +1,85 @@
+.GridItem {
+  $this: &;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--overflow-gradient), var(--bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s linear;
+  }
+
+  &:hover::before,
+  &:focus-within::before {
+    transform: scale(1.1);
+  }
+
+  &__content {
+    min-height: 350px;
+    padding: 25px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @media (min-width: 1247px) {
+      padding: 35px;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 900;
+    margin-block: 0;
+    max-width: 230px;
+
+    @media (min-width: 1247px) {
+      font-size: 46px;
+      max-width: 280px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 900;
+    margin-block: 22px 0;
+
+    @media (min-width: 1247px) {
+      font-size: 24px;
+    }
+  }
+
+  &:nth-child(3n+1) {
+    #{$this}__title {
+      @media (min-width: 1247px) {
+        font-size: 74px;
+        max-width: 670px;
+      }
+    }
+
+    #{$this}__text {
+      @media (min-width: 1247px) {
+        font-size: 26px;
+      }
+    }
+  }
+
+  &__button {
+    margin-block: 22px 0;
+
+    &::after {
+      content: '';
+      inset: 0;
+      cursor: pointer;
+      position: absolute;
+    }
+  }
+}

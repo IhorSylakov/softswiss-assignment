@@ -1,0 +1,120 @@
+.Banner {
+  $this: &;
+  --bg: url(../../images/banner-bg.webp);
+  background-image: var(--overflow-gradient), var(--bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__wrapper {
+    width: 100%;
+    position: relative;
+    margin-inline: auto;
+    padding-block: 250px 45px;
+    overflow: hidden;
+    max-width: var(--max-width);
+    padding-inline: var(--padding-inline);
+  
+    @media (min-width: 767px) {
+      padding-block: 91px;
+      min-height: 420px;
+    }
+  
+    @media (min-width: 1247px) {
+      min-height: 490px;
+    }
+  }
+
+  &__content {
+    gap: 17px;
+    max-width: 292px;
+    display: flex;
+    margin-inline: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  
+    @media (min-width: 767px) {
+      gap: 22px;
+      max-width: 411px;
+      margin-inline: 0;
+      text-align: left;
+      align-items: flex-start;
+    }
+
+    @media (min-width: 1247px) {
+      max-width: 693px;
+    }
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 900;
+    margin: 0;
+  
+    @media (min-width: 767px) {
+      font-size: 48px;
+    }
+
+    @media (min-width: 1247px) {
+      font-size: 72px;
+    }
+  }
+
+  &__title-mark {
+    color: var(--accent-color);
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 900;
+    margin: 0;
+  
+    @media (min-width: 767px) {
+      font-size: 22px;
+    }
+
+    @media (min-width: 1247px) {
+      font-size: 32px;
+    }
+  }
+
+  &__text-mark {
+    color: var(--secondary-color);
+  }
+
+  #{$this} &__button {
+    @media (min-width: 767px) {
+      --button-pb: 14px;
+      --button-fz: 22px;
+      --button-lh: 26px;
+    }
+  }
+
+  &__visual {
+    position: absolute;
+    left: 50%;
+    top: -115px;
+    transform: translateX(-50%);
+  
+    @media (min-width: 767px) {
+      top: 25px;
+      left: auto;
+      right: -115px;
+      transform: none;
+    }
+
+    @media (min-width: 1247px) {
+      top: 59px;
+      right: 50px;
+    }
+  }
+
+  &__img {
+    @media (min-width: 1247px) {
+      width: 361px;
+      height: auto;
+    }
+  }
+}

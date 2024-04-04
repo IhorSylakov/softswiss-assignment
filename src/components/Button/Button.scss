@@ -1,0 +1,26 @@
+.Button {
+  display: inline-flex;
+  vertical-align: top;
+  text-align: center;
+  padding: var(--button-pb, 7px) 40px;
+  border-radius: 30px;
+  font-size: var(--button-fz, 16px);
+  line-height: var(--button-lh, 19px);
+  border: 2px solid var(--secondary-color);
+
+  @media (min-width: 1247px) {
+    --button-pb: 14px;
+    --button-fz: 22px;
+    --button-lh: 26px;
+  }
+
+  &--filled {
+    color: var(--inverted-color);
+    background: var(--secondary-color);
+  }
+
+  &--inverted {
+    background: transparent;
+    color: var(--secondary-color);
+  }
+}

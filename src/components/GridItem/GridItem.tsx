@@ -1,5 +1,6 @@
 import React from 'react';
-import { NewsItem } from '../../types/types';
+import { buttonVariants, NewsItem } from '../../types/types';
+import Button from '../Button/Button';
 import './GridItem.scss';
 
 export default function GridItem({
@@ -9,13 +10,20 @@ export default function GridItem({
   background
 }: NewsItem ) {
   return (
-    <div
+    <article
       className="GridItem"
       style={{ '--bg': `url(${require(`../../images/${background}.webp`)})` } as React.CSSProperties}
     >
-      <h2 className="GridItem__title">{title}</h2>
-      <p className="GridItem__text">{text}</p>
-      <a href={link} className="GridItem__link">Learn more</a>
-    </div>
+      <div className="GridItem__content">
+        <h3 className="GridItem__title">{title}</h3>
+        <p className="GridItem__text">{text}</p>
+        <Button
+          link={link}
+          text="Learn more"
+          className="GridItem__button"
+          variant={buttonVariants.inverted}
+        />
+      </div>
+    </article>
   );
 }
