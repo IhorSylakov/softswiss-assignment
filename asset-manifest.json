@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.eccadfa1.css",
-    "main.js": "/react-gh-pages/static/js/main.59ee16de.js",
-    "static/js/453.2dc60c64.chunk.js": "/react-gh-pages/static/js/453.2dc60c64.chunk.js",
-    "static/media/banner-bg.webp": "/react-gh-pages/static/media/banner-bg.3c61546f06771a8f84df.webp",
-    "static/media/newsBg4.webp": "/react-gh-pages/static/media/newsBg4.c2c849bfdd5f6357d3ad.webp",
-    "static/media/newsBg3.webp": "/react-gh-pages/static/media/newsBg3.a9eb84d1846170b26763.webp",
-    "static/media/newsBg1.webp": "/react-gh-pages/static/media/newsBg1.2a55165e8b422a739472.webp",
-    "static/media/newsBg2.webp": "/react-gh-pages/static/media/newsBg2.7277878f545b4a5bfdb2.webp",
-    "static/media/banner-visual.webp": "/react-gh-pages/static/media/banner-visual.4f883388cdb8f88355db.webp",
-    "static/media/header-logo.svg": "/react-gh-pages/static/media/header-logo.53a9b12b29723f69fac043fae2044551.svg",
-    "static/media/footer-logo.webp": "/react-gh-pages/static/media/footer-logo.a840edebc9f79d02fb68.webp",
-    "static/media/cart.svg": "/react-gh-pages/static/media/cart.d6af7a7d1a89451503e4e73c788f7313.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/burger-menu.svg": "/react-gh-pages/static/media/burger-menu.dc82fe2e1ca5309994b8e36bd4f90299.svg",
-    "main.eccadfa1.css.map": "/react-gh-pages/static/css/main.eccadfa1.css.map",
-    "main.59ee16de.js.map": "/react-gh-pages/static/js/main.59ee16de.js.map",
-    "453.2dc60c64.chunk.js.map": "/react-gh-pages/static/js/453.2dc60c64.chunk.js.map"
+    "main.css": "/softswiss-assignment/static/css/main.a3e6a611.css",
+    "main.js": "/softswiss-assignment/static/js/main.fed4cedd.js",
+    "static/js/453.2dc60c64.chunk.js": "/softswiss-assignment/static/js/453.2dc60c64.chunk.js",
+    "static/media/banner-bg.webp": "/softswiss-assignment/static/media/banner-bg.3c61546f06771a8f84df.webp",
+    "static/media/newsBg4.webp": "/softswiss-assignment/static/media/newsBg4.c2c849bfdd5f6357d3ad.webp",
+    "static/media/newsBg3.webp": "/softswiss-assignment/static/media/newsBg3.a9eb84d1846170b26763.webp",
+    "static/media/newsBg1.webp": "/softswiss-assignment/static/media/newsBg1.2a55165e8b422a739472.webp",
+    "static/media/newsBg2.webp": "/softswiss-assignment/static/media/newsBg2.7277878f545b4a5bfdb2.webp",
+    "static/media/banner-visual.webp": "/softswiss-assignment/static/media/banner-visual.4f883388cdb8f88355db.webp",
+    "static/media/header-logo.svg": "/softswiss-assignment/static/media/header-logo.53a9b12b29723f69fac043fae2044551.svg",
+    "static/media/footer-logo.webp": "/softswiss-assignment/static/media/footer-logo.a840edebc9f79d02fb68.webp",
+    "static/media/cart.svg": "/softswiss-assignment/static/media/cart.d6af7a7d1a89451503e4e73c788f7313.svg",
+    "index.html": "/softswiss-assignment/index.html",
+    "static/media/burger-menu.svg": "/softswiss-assignment/static/media/burger-menu.dc82fe2e1ca5309994b8e36bd4f90299.svg",
+    "main.a3e6a611.css.map": "/softswiss-assignment/static/css/main.a3e6a611.css.map",
+    "main.fed4cedd.js.map": "/softswiss-assignment/static/js/main.fed4cedd.js.map",
+    "453.2dc60c64.chunk.js.map": "/softswiss-assignment/static/js/453.2dc60c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eccadfa1.css",
-    "static/js/main.59ee16de.js"
+    "static/css/main.a3e6a611.css",
+    "static/js/main.fed4cedd.js"
   ]
 }
