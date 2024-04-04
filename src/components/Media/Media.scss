@@ -1,4 +1,4 @@
-.GridItem {
+.Media {
   $this: &;
   border-radius: 10px;
   position: relative;
@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: flex-end;
 
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       padding: 35px;
     }
   }
@@ -40,7 +40,7 @@
     margin-block: 0;
     max-width: 230px;
 
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       font-size: 46px;
       max-width: 280px;
     }
@@ -52,21 +52,21 @@
     font-weight: 900;
     margin-block: 22px 0;
 
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       font-size: 24px;
     }
   }
 
   &:nth-child(3n+1) {
     #{$this}__title {
-      @media (min-width: 1247px) {
+      @media (min-width: 1248px) {
         font-size: 74px;
         max-width: 670px;
       }
     }
 
     #{$this}__text {
-      @media (min-width: 1247px) {
+      @media (min-width: 1248px) {
         font-size: 26px;
       }
     }

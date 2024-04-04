@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../data/news.json';
 import { NewsItem } from '../../types/types';
-import GridItem from '../GridItem/GridItem';
+import Media from '../Media/Media';
 import './Content.scss';
 
 export default function Content() {
@@ -13,7 +13,7 @@ export default function Content() {
         <h2 className="Content__title">Offers</h2>
         <div className="Content__grid-news">
           {news.map((item) => (
-            <GridItem
+            <Media
               key={item.id}
               {...item}
             />

@@ -14,35 +14,35 @@
     max-width: var(--max-width);
     padding-inline: var(--padding-inline);
   
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       padding-block: 91px;
       min-height: 420px;
     }
   
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       min-height: 490px;
     }
   }
 
   &__content {
     gap: 17px;
-    max-width: 292px;
+    max-width: 290px;
     display: flex;
     margin-inline: auto;
     text-align: center;
     align-items: center;
     flex-direction: column;
   
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       gap: 22px;
-      max-width: 411px;
+      max-width: 410px;
       margin-inline: 0;
       text-align: left;
       align-items: flex-start;
     }
 
-    @media (min-width: 1247px) {
-      max-width: 693px;
+    @media (min-width: 1248px) {
+      max-width: 690px;
     }
   }
 
@@ -52,11 +52,11 @@
     font-weight: 900;
     margin: 0;
   
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       font-size: 48px;
     }
 
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       font-size: 72px;
     }
   }
@@ -71,11 +71,11 @@
     font-weight: 900;
     margin: 0;
   
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       font-size: 22px;
     }
 
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       font-size: 32px;
     }
   }
@@ -85,7 +85,7 @@
   }
 
   #{$this} &__button {
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       --button-pb: 14px;
       --button-fz: 22px;
       --button-lh: 26px;
@@ -98,21 +98,21 @@
     top: -115px;
     transform: translateX(-50%);
   
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       top: 25px;
       left: auto;
       right: -115px;
       transform: none;
     }
 
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       top: 59px;
       right: 50px;
     }
   }
 
   &__img {
-    @media (min-width: 1247px) {
+    @media (min-width: 1248px) {
       width: 361px;
       height: auto;
     }

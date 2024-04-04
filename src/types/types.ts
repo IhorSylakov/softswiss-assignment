@@ -15,7 +15,7 @@ export type HeaderLink = {
   children?: ReactNode
 };
 
-export enum buttonVariants {
+export enum ButtonVariants {
     filled = 'filled',
     inverted = 'inverted',
 }
@@ -23,7 +23,7 @@ export enum buttonVariants {
 export type ButtonProps = {
     text?: string;
     link?: string;
-    variant?: buttonVariants;
+    variant?: ButtonVariants;
     className?: string;
 };
 

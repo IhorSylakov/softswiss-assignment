@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.scss';
 import bannerVisual from '../../images/banner-visual.webp';
 import Button from '../Button/Button';
-import { buttonVariants } from '../../types/types';
+import { ButtonVariants } from '../../types/types';
 
 export default function Banner() {
   return (
@@ -19,7 +19,7 @@ export default function Banner() {
             link="/"
             text="Learn more"
             className="Banner__button"
-            variant={buttonVariants.filled}
+            variant={ButtonVariants.filled}
           />
         </div>
         <div className="Banner__visual">
