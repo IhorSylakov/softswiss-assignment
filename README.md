@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Softswiss test task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[design in figma](https://www.figma.com/design/kYELd72SGG1AZzasjSbW69/Softswiss-assignment?node-id=0-1&t=NJDOdxSmdNmVbv3d-0)
+
+## Levels of implementation
+
+### Standard Level:
+Adaptive layout of all page elements using the SASS preprocessor.
+
+### Intermediate Level:
+Adaptive layout using the SASS preprocessor, implementation of interactive elements on hover, implementation of burger menu logic for mobile devices using JavaScript.
+
+### Advanced Level:
+Adaptive layout, implementation of interactive elements on hover, implementation of burger menu logic for mobile devices without using JavaScript (using CSS).
+
+## Requirements:
+1. The layout must exactly match the design and be fully adaptive. The design includes three viewports, so you should focus on them.
+2. The use of any frameworks or libraries for creating adaptive design is prohibited.
+3. Use flex/grid for creating layouts.
+4. It is recommended to use Multiple Backgrounds for background implementation.
+5. Images must be optimized and, if possible, use SVG.
+
+## App preview
+
+![App preview](https://raw.githubusercontent.com/IhorSylakov/IhorSylakov/main/repo-previews/softswiss-assignment.webp)
+
+
 
 ## Available Scripts
 
@@ -29,18 +53,3 @@ Your app is ready to be deployed!!!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
